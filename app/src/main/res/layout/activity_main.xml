@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#FFF8DC"
+                  >
+
+   <TextView
+       android:id="@+id/title"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/appsmobilestore"
+       android:padding="20dp"
+       android:textSize="20sp"
+       android:textAlignment="center"
+       android:textStyle="bold"
+       />
+
+   <EditText
+       android:id="@+id/nama"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/nama"
+       />
+
+   <TextView
+       android:id="@+id/typepelang"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/tipe_pelanggan"
+       android:textSize="20sp"
+       android:layout_marginTop="30dp"
+       android:layout_marginLeft="20dp"
+       android:textStyle="bold"
+      />
+
+   <RadioGroup
+       android:id="@+id/radioGroup"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+      <RadioButton
+          android:id="@+id/radioGold"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Gold" />
+
+      <RadioButton
+          android:id="@+id/radioSilver"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Silver" />
+
+      <RadioButton
+          android:id="@+id/radioBiasa"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Biasa" />
+   </RadioGroup>
+
+   <EditText
+       android:id="@+id/kodebrg"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       android:hint="@string/kode_barang"
+       />
+
+   <EditText
+       android:id="@+id/jmlbrg"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/jumlah_barang"
+      />
+
+   <Button
+       android:id="@+id/process"
+       android:layout_width="150dp"
+       android:layout_height="wrap_content"
+       android:text="@string/process"
+       android:textStyle="bold"
+       android:textSize="20sp"
+       android:layout_marginTop="20dp"
+       android:layout_gravity="center"
+
+
+      />
+
+
+
+
+</LinearLayout>

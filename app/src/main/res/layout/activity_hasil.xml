@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAEBD7"
+    android:layout_gravity="center"
+    tools:context=".hasil">
+
+
+
+    <TextView
+        android:id="@+id/namaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama:"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tipePelangganTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipe Pelanggan :"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/kodebrgTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kode Barang:"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/hargaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga:"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/jmlbrgTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Barang:"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/totalHargaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Harga:"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/sharebtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="100dp"
+
+
+
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">muhammad rezeki quiz 1</string>
+    <string name="appsmobilestore">AppsMobileStore</string>
+    <string name="tipe_pelanggan">Tipe pelanggan</string>
+    <string name="nama_barang">Nama barang</string>
+    <string name="kode_barang">Kode Barang</string>
+    <string name="jumlah_barang">Jumlah Barang</string>
+    <string name="process">Process</string>
+    <string name="nama">Nama</string>
+    <string name="share">Share</string>
+</resources>
